@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thangachamy</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./JS/style.js">
+</head>
+<body>
+    <div class="container">
+        <div class="page1" id="page1">
+            <header>
+                <nav>
+                    <img src="./logo.jpg" width="70" alt="logo">
+                    <ul>
+                        <li><a href="#page1">Home</a></li>
+                        <li><a href="#page2">TourList</a></li>
+                        <li><a href="#page5">Destination</a></li>
+                        <li><a href="#page6">Discounts</a></li>
+                        <li><a href="#page7">OurGallery</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <p>Let's go now</p>
+            <h1>Explore and travel</h1>
+            <button><a href="#">BOOKING</a></button>
+        </div>
+        <div class="page2" id="page2">
+            
+            <div class="box-">
+                <input type="text" placeholder="Enter Your Name" id="name">
+                <input type="text" placeholder="Enter Your Email" id="email">
+                <input type="text" placeholder="Enter Your Phone" id="phone">
+                <input type="text" placeholder="Text Message" id="msg">
+
+                <button onclick="sendmsg()">SEND ME</button>
+
+
+                <script>
+                    function sendmsg(){
+                       var name =  document.querySelector("#name").value;
+                       var email =  document.querySelector("#email").value;
+                       var phone =  document.querySelector("#phone").value;
+                       var msg =  document.querySelector("#msg").value;
+            
+                       if(name == "") {
+                        alert("name is empty");
+                       }else if (email == ""){
+                        alert("email is empty");
+                       }else if(phone == ""){
+                        alert("phone is empty");
+                       }else if(msg == ""){
+                        alert("message is empty");
+                       }else{
+                        alert("send successfully");
+                       }
+            
+                    }
+                </script>
+
+                
+
+                
+            </div>
+            <div class="box box1">
+                <h4>Turkey</h4>
+                <p>5 days</p>
+            </div>
+            <div class="box box2">
+                <h4>Londan</h4>
+                <p>8days</p>
+            </div>
+            <div class="box box3">
+                <h4>Malasiya</h4>
+                <p>10days</p>
+            </div>
+            <div class="box box4">
+                <h4>Dubai</h4>
+                <p>12days</p>
+            </div>
+        </div>
+        <div class="page3">
+            <h3>The Most searched holiday destination</h3>
+            <div class="box box1">
+                <h2>Switerland-7days</h2>
+                <p>$270</p>
+            </div>
+            <div class="box box2">
+                <h2>St.Mortiz Package</h2>
+                <p>$450</p>
+            </div>
+            <div class="box box3">
+                <h2>Big in japan</h2>
+                <p>$522</p>
+            </div>
+            <div class="box box4">
+                <h2>Japan subway ticket</h2>
+                <p>$255</p>
+            </div>
+            <div class="box box5">
+                <h2>Helicopter flight</h2>
+                <p>$250</p>
+            </div>
+            <div class="box box6">
+                <h2>Snorkeling Adventure</h2>
+                <p>$411</p>
+            </div>
+            
+            
+        </div>
+        <div class="page4">
+            <button><a href="#">View All</a></button>
+            <div class="box1">
+                <h2>Find Your Perfect</h2>
+                <h1>Vacation</h1>
+            </div>
+        </div>
+        <div class="page5" id="page5">
+            <div class="box-">
+                <p>Choose Your</p>
+                <h1>Destination</h1>
+                <div class="box box1">
+                    <h2>Holland</h2>
+                </div>
+                <div class="box box2">
+                    <h2>Greece</h2>
+                </div>
+                <div class="box box3">
+                    <h2>Holy</h2>
+                </div>
+            </div>
+        </div>
+        <div class="page6" id="page6">
+            <p>Our Offer</p>
+                <h1>Discount 10-30% Off</h1>
+            <div class="box1"></div>
+            <button><a href="#">See Promotion Tour</a></button>
+        </div>
+        <div class="page7" id="page7">
+            <p>Our Tour</p>
+            <h1>Gallery</h1>
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+            <div class="box box4"></div>
+            <div class="box box5"></div>
+            <div class="box box6"></div>
+            <div class="box box7"></div>
+            <div class="box box8"></div>
+            <div class="box box9"></div>
+            <div class="box box10"></div>
+            <div class="box box11"></div>
+            <div class="box box12"></div>
+        </div>
+        <div class="page8">
+            <div class="box1">
+                <p>Our Presence</p>
+                <h1>Contact as</h1>
+                <div class="box- box-1">
+                   <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                </div>
+                <div class="box- box-2">
+                   <li><a href="#" ><i class="fa-brands fa-whatsapp"></i></a></li>
+                </div>
+                <div class="box- box-3">
+                   <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </div>
+                <div class="box- box-4">
+                   <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                </div>
+                <div class="box- box-5">
+                   <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                </div>
+               
+            </div>
+            <script src="https://kit.fontawesome.com/ae61999827.js" crossorigin="anonymous"></script>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
